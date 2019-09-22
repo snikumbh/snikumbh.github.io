@@ -2,6 +2,18 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
+
+.menu { padding: 0px; 
+	text-align:center;
+}
+.menu li { display: inline-block; }
+.article-meta, .menu a {
+  text-decoration: none;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -35,10 +47,10 @@ textarea {
 }
 
 hr {
-  display: none;
+  display: block;
   height: 1px;
   border: 0;
-  /* border-top: 1px solid #ccc; */
+  border-top: 0.5px solid #ccc;
   margin: 1rem 0;
   padding: 0;
 }
