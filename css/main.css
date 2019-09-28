@@ -141,6 +141,12 @@ h6 {
   font-size: 0.9rem;
 }
 
+
+.toplink {
+  float:right;
+  font-size: 0.9rem;
+}
+
 .container {
   max-width: 800px;
 }
