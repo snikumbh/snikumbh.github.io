@@ -9,13 +9,13 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-cp -r public/ .
+cp * public/ ../snikumbh.github.io/
 
-# remove Public folder
-rm -r public
+# Go to snikumbh.github.io folder
+cd ../snikumbh.github.io/
 
 # Add changes to git.
-git add *
+git add .
 
 # Commit changes.
 msg="rebuilding site $(date)"

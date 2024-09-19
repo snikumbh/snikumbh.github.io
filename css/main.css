@@ -50,7 +50,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 0.75px solid #ccc;
+  border-top: 0.5px solid #ccc;
   margin: 1rem 0;
   padding: 0;
 }
@@ -141,9 +141,8 @@ h6 {
   font-size: 0.9rem;
 }
 
-
 .toplink {
-  float:right;
+  float:right; 
   font-size: 0.9rem;
 }
 
@@ -239,6 +238,7 @@ ul {
 
 .header nav {
   margin-top: 20px;
+  /* position:fixed; */
   /* border-top: 1px solid #f4f4f4; */
 }
 
@@ -284,7 +284,7 @@ ul {
 .header .site-affilation nav {
   margin: 0;
   padding: 0;
-  border: none;
+  border: 0;
 }
 
 .header .site-affilation nav ul svg {

@@ -10,5 +10,14 @@
 	<atom:link href="https://snikumbh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>https://snikumbh.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snikumbh.github.io/publications/</guid>
+      <description>Selected Publications {{- range $index, $publications := .Site.Params.publications -}} {{ $publications.year }}  {{ range $elem_index, $publication := $publications.paper }}  {{ if $publication.link }} {{ $publication.name }},  {{ else }} {{ $publication.name }}, {{ end }} {{ $publication.dest | markdownify }}. {{ if or ($publication.code_link) $publication.blog_link }} {{ with $publication.code_link }} [code] {{ end }} {{ with $publication.blog_link }} [blog] {{ end }}  {{ end }} {{ $publication.</description>
+    </item>
+    
   </channel>
 </rss>
