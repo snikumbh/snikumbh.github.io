@@ -1,0 +1,5 @@
+archetypes/
+themes/
+deploy.sh
+.DS_Store
+static/
